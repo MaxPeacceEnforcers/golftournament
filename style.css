@@ -30,11 +30,10 @@
 }
 .logo-area{
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: center;
+	flex-flow: row wrap;
+	align-content: space-around;
 	justify-content: center;
-	width: 100%;
+	
 }
 .my-footer{
     display: flex;
@@ -46,7 +45,7 @@
 }
 .logo-item{
 	max-width: 300px;
-
+	
 	height: fit-content;
     	margin: 1em;
 }
@@ -1051,6 +1050,7 @@ iframe {
 	align-items: center;
 	align-content: center;
 	align-self: center;
+	
 
 }
 .sponsorlogo img {
@@ -1060,7 +1060,10 @@ iframe {
 	padding-left: 20px;
 	padding-right: 20px;
 	margin: 0%;
-
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
 }
 .sponsorlogo p {
 	position: relative;
