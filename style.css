@@ -177,7 +177,7 @@
 .fuzzy-bg h3 {
 	color: white;
 	font-size: 25px;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 	text-decoration-color: white;
 	/*-webkit-text-stroke: 0.7px#000;*/
 }
