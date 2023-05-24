@@ -231,7 +231,7 @@
                                                     <!--<span class="mu-price-tag" style="text-decoration: line-through;">$5000</span>-->
                                                 </div>
 												<!--<a class="mu-book-now-btn " style="color: red !important; border-color: red !important;" id="mu-scrolldown">SOLD OUT</a>-->
-                                                <a href="https://forms.gle/9eijPwd6Q4jpjzaq8" target="_blank" class="mu-book-now-btn">Register</a>
+                                                <a href="{{ site.data.links.sponsorRegister }}" target="_blank" class="mu-book-now-btn">Register</a>
 											</div>
 										</div>
 									</div>
@@ -246,7 +246,7 @@
                                                 <div class="price-container">
                                                     <span class="mu-price-tag">$2500</span>
                                                 </div>
-												<a href="https://forms.gle/9eijPwd6Q4jpjzaq8" target="_blank" class="mu-book-now-btn">Register</a>
+												<a href="{{ site.data.links.sponsorRegister }}" target="_blank" class="mu-book-now-btn">Register</a>
 											</div>
 										</div>
 									</div>
@@ -261,7 +261,7 @@
                                                 <div class="price-container">
                                                     <span class="mu-price-tag">$1000</span>
                                                 </div>
-												<a href="https://forms.gle/9eijPwd6Q4jpjzaq8" target="_blank" class="mu-book-now-btn">Register</a>
+												<a href="{{ site.data.links.sponsorRegister }}" target="_blank" class="mu-book-now-btn">Register</a>
 											</div>
 										</div>
 									</div>
@@ -275,7 +275,7 @@
 												<div class="price-container">
                                                     <span class="mu-price-tag">$150</span>
                                                 </div>
-												<a href="https://forms.gle/9eijPwd6Q4jpjzaq8" target="_blank" class="mu-book-now-btn">Register</a>
+												<a href="{{ site.data.links.sponsorRegister }}" target="_blank" class="mu-book-now-btn">Register</a>
 											</div>
 										</div>
 									</div>
@@ -366,8 +366,8 @@
 							<p>Please fill out the form linked below to become a golfer or sponsor. 
 							
 							Payment info can found at the end of the registration form. You will receive a confirmation email if successful. </p>
-								<a href="https://forms.gle/H6jtchWnuaznKLyRA" target="_blank" class="mu-book-now-btn">Register As Sponsor</a>
-				 				<a href="https://forms.gle/MBPoTwrHrkAAwekd7" target="_blank" class="mu-book-now-btn">Register As Golfer</a>
+								<a href="{{ site.data.links.sponsorRegister }}" target="_blank" class="mu-book-now-btn">Register As Sponsor</a>
+				 				<a href="{{ site.data.links.golferRegister }}" target="_blank" class="mu-book-now-btn">Register As Golfer</a>
 								<!--<div class="row">
 
 									<div class="col-md-12">
@@ -424,10 +424,13 @@
             <div class="mu-featured-tours-area lt-green" style=" padding:30px;">
 				<h2>Useful Links:</h2>	
                 <div class="container">
-                        <a href="https://www.peacce.org/" target="_blank" class="my-btn" >Operation PEACCE Robotics</a>
-                        <a href="https://www.max1071.org/" target="_blank" class="my-btn" >Team MAX Robotics</a>
-                        <a href="https://farmingtonrobotics.org/" target="_blank" class="my-btn" >2nd Law Enforcers Robotics</a>
-						<a href="https://www.bluefoxent.com/golf" target="_blank" class="my-btn" >Blue Fox Run Golf Course</a>
+						{% for team in site.data.teams %}
+                        <!-- <a href="https://www.peacce.org/" target="_blank" class="my-btn" >Operation PEACCE Robotics</a> -->
+                        <!-- <a href="https://www.max1071.org/" target="_blank" class="my-btn" >Team MAX Robotics</a> -->
+                        <!-- <a href="https://farmingtonrobotics.org/" target="_blank" class="my-btn" >2nd Law Enforcers Robotics</a> -->
+						<a href="{{ team.website }}" target="_blank" class="my-btn"> {{ team.name }}</a>
+						{% endfor %}
+						<a href="{{ site.data.golfcourse.website}}" target="_blank" class="my-btn" >{{ site.data.golfcourse.name}}</a>
                         <a href="https://4-h.org/about/what-is-4-h/#!menu" target="_blank" class="my-btn" >About 4-H</a>
 						<a href="https://www.firstinspires.org/robotics/frc/what-is-first-robotics-competition" target="_blank" class="my-btn" >About FIRST Robotics</a>
                     </div>
