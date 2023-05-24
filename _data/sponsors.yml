@@ -1,0 +1,32 @@
+# Written by Logan Ayers | 5/23/2023
+# Displayed in the order the list is written
+# To add a new sponsor copy paste the following
+# - name: Insert
+#   image: /.../.../IMAGE.EXT
+#   sponsortier: IE Title, Gold, Bronze, Platinum "Sponsor" is appended afterward
+#   isNameOnly: bool  if we have no logo image to display, only display the name and disable the image
+
+
+#If a sponsor stops sponsoring, please COMMENT THEM OUT, DO NOT DELETE THEM!
+#leave them in Alphabetical order and just uncomment them if they start sponsoring them again
+#or comment them out if they stop sponsoring
+
+- name: Calan Hunter
+  image: /assets/images/notFound.png
+  sponsortier: Platinum
+  isNameOnly: true
+
+- name: John Baily
+  image: /assets/images/notFound.png
+  sponsortier: Bronze
+  isNameOnly: true
+
+- name: Arthur G Russel Comapny
+  image: /assets/images/AGR.png
+  sponsortier: Field
+  isNameOnly: false
+
+- name: Pat's IGA Wolcott
+  image: /assets/images/Pats-IGA.png
+  sponsortier: Breakfest
+  isNameOnly: false

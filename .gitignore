@@ -1,1 +1,4 @@
 .vscode/launch.json
+.jekyll-cache
+_site
+.vscode
