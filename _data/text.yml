@@ -1,0 +1,23 @@
+banner: 
+  introduction: "The Central Connecticut Robotics Alliance Proudly Presents"
+  hero-text: "The CCRA 2nd Annual Golf Tournament"
+  sub-text: "Join us for an exciting day of golf on one of Southington River Valley's most scenic 18-hole courses. All proceeds benefit our three FIRST High School Robotics teams for tools, equipment, education, and community outreach."
+
+prizes:
+  - 1st place, 2nd place, 3rd place
+  - Hole-in-one
+  - Longest Drive
+  - Closest To Pin
+  - Raffle Prizes
+
+golfing:
+  - 18 holes of golf w/ cart
+  - 4-person Scramble Format
+  - Continental Breakfast
+  - BBQ Cookout Dinner
+  - Gift Bag
+
+schedule:
+  - 7:00 - Breakfast and Registration
+  - 9:00 - Tee off
+  - 2:00 - BBQ Dinner and Awards
