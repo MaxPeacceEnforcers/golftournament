@@ -62,7 +62,7 @@
 							<li>
                                 <div class="btn-special">
                                     <i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <span><a href="mailto:golf@peacce.org">golf@peacce.org</a></span>
+                                    <span><a href="mailto:{{site.data.links.email}}">{{site.data.links.email}}</a></span>
                                 </div>
 							</li>
 							<li>
@@ -82,7 +82,8 @@
 						<div class="fuzzy-bg">
                             <h2>{{ site.data.text.banner.introduction }}</h2>
                             <h1>{{ site.data.text.banner.hero-text }}</h1>
-                            <h3>{{ site.data.text.banner.sub-text }}</h3>
+							<h3>{{site.data.text.banner.date-time}}</h3>
+                            <h4>{{ site.data.text.banner.sub-text }}</h4>
                             <br>
                             <!-- <h2>Platinum Sponsor:</h2>
                             <br>
@@ -290,7 +291,7 @@
                                                 <div class="price-container">
                                                     <span class="mu-price-tag">$---</span>
                                                 </div>
-												<a href="https://www.paypal.com/donate/?hosted_button_id=2HVHKYDYD6PYW" target="_blank" class="mu-book-now-btn">Donate Now</a>
+												<a href="{{site.data.links.payPalDonation}}" target="_blank" class="mu-book-now-btn">Donate Now</a>
 											</div>
 										</div>
 									</div>
@@ -306,7 +307,7 @@
                                                 <div class="price-container">
                                                     <span class="mu-price-tag">$---</span>
                                                 </div>
-												<a  href="mailto:golf@peacce.org?subject=CCRA Website Contact Button" class="mu-book-now-btn">Contact Us</a>
+												<a  href="mailto:{{site.data.links.email}}?subject=CCRA Website Contact Button" class="mu-book-now-btn">Contact Us</a>
 											</div>
 										</div>
 									</div>
