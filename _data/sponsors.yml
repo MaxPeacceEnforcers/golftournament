@@ -11,22 +11,22 @@
 #leave them in Alphabetical order and just uncomment them if they start sponsoring them again
 #or comment them out if they stop sponsoring
 
-- name: Calan Hunter
-  image: /assets/images/notFound.png
-  sponsortier: Platinum
-  isNameOnly: true
+# - name: Calan Hunter
+#   image: /assets/images/notFound.png
+#   sponsortier: Platinum
+#   isNameOnly: true
 
-- name: John Baily
-  image: /assets/images/notFound.png
-  sponsortier: Bronze
-  isNameOnly: true
+# - name: John Baily
+#   image: /assets/images/notFound.png
+#   sponsortier: Bronze
+#   isNameOnly: true
 
 - name: Arthur G Russel Comapny
   image: /assets/images/AGR.png
   sponsortier: Field
   isNameOnly: false
 
-- name: Pat's IGA Wolcott
-  image: /assets/images/Pats-IGA.png
-  sponsortier: Breakfest
-  isNameOnly: false
+# - name: Pat's IGA Wolcott
+#   image: /assets/images/Pats-IGA.png
+#   sponsortier: Breakfest
+#   isNameOnly: false

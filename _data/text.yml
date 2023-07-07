@@ -1,8 +1,8 @@
 banner: 
   introduction: "The Central Connecticut Robotics Alliance Proudly Presents"
   hero-text: "The CCRA 2nd Annual Golf Tournament"
-  date-time: "Hawks Landing Country Club, Southington, CT - Sunday, September 10th, 2023 9:00am - 2:00pm"
-  sub-text: "Join us for an exciting day of golf on one of Southington River Valley's most scenic 18-hole courses. All proceeds benefit our three FIRST High School Robotics teams for tools, equipment, education, and community outreach."
+  date-time: "Hawks Landing Country Club, Southington, CT - Sunday, September 10th, 2023 7:30am - 2:30pm"
+  sub-text: "Join us for an exciting day of golf on one of Central Connecticut Valley's most scenic 18-hole courses. All proceeds benefit our three FIRST High School Robotics teams for tools, equipment, education, and community outreach."
 
 prizes:
   - 1st place, 2nd place, 3rd place
@@ -15,10 +15,11 @@ golfing:
   - 18 holes of golf w/ cart
   - 4-person Scramble Format
   - Continental Breakfast
-  - BBQ Cookout Dinner
+  - BBQ Cookout Lunch
   - Gift Bag
 
 schedule:
   - 7:00 - Breakfast and Registration
-  - 9:00 - Tee off
-  - 2:00 - BBQ Dinner and Awards
+  - 8:30 - Tee off
+  - 1:30 - Lunch provided by Frankie's
+  - 2:00 - Awards
