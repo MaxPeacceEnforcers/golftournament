@@ -21,10 +21,34 @@
 #   sponsortier: Bronze
 #   isNameOnly: true
 
+#Start Platinum Sponsor
+
 - name: Arthur G Russell Company
   image: /assets/images/AGR.png
   sponsortier: Field
   isNameOnly: false
+
+
+# Start Silver Sponsors
+
+# Start Bronze Sponsors
+
+- name: CompuMail
+  image: /assets/images/CompuMail-Solutions-logo-200.png
+  sponsortier: Bronze
+  isNameOnly: false
+
+# Start Hole Sponsors
+
+- name: Shake Shack
+  image: /assets/images/ShakeShack.png
+  sponsortier: Hole
+  isNameOnly: false
+
+
+# Start Monetary Sponsors
+
+# Start Raffle Prize Donators
 
 # - name: Pat's IGA Wolcott
 #   image: /assets/images/Pats-IGA.png
