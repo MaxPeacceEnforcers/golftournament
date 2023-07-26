@@ -41,10 +41,14 @@
 # Start Hole Sponsors
 
 - name: Shake Shack
-  image: /assets/images/AGR.png
+  image: /assets/images/ShakeShack.png
   sponsortier: Hole
-  isNameOnly: true
+  isNameOnly: false
 
+
+# Start Monetary Sponsors
+
+# Start Raffle Prize Donators
 
 # - name: Pat's IGA Wolcott
 #   image: /assets/images/Pats-IGA.png
