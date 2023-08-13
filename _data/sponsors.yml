@@ -50,6 +50,15 @@
   sponsortier: Hole
   isNameOnly: false
 
+- name: AET Labs
+  image: /assets/images/AutomationAssociates.jpeg
+  sponsortier: Hole
+  isNameOnly: true
+
+- name: PTA PLASTICS
+  image: /assets/images/ptaplastics.png
+  sponsortier: Hole
+  isNameOnly: false
 
 # Start Monetary Sponsors
 
