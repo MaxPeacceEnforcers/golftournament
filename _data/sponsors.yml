@@ -60,6 +60,11 @@
   sponsortier: Hole
   isNameOnly: false
 
+- name: Epson Robotics
+  sponsortier: Hole
+  image: /assets/images/epson.png
+  isNameOnly: false
+
 - name: PTA PLASTICS
   image: /assets/images/ptaplastics.png
   sponsortier: Hole
