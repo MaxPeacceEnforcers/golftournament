@@ -41,7 +41,7 @@
 # Start Hole Sponsors
 
 - name: Shake Shack
-  image: /assets/images/ShakeShack.png
+  image: /assets/images/ShakeShack.jpg
   sponsortier: Hole
   isNameOnly: false
 
