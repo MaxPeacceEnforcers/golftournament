@@ -362,6 +362,12 @@
 		<!-- Start Contact -->
 		<section id="mu-contact">
 			<div class="container">
+				<div class=row>
+					<h4>Special thanks to our prize donors</h4>
+					{{for item in site.data.prizeDonors}}
+						<h5>{{item}}</h5>
+					{{endfor}}
+				</div>
 				<div class="row">
 					<div class="col-md-12">
 						<div class="mu-contact-area">
